@@ -1,5 +1,6 @@
-<ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+
+<ion-tabs swipeTab  color="mar-beige" (ionChange)="transition($event)" (onTabChange)="onTabChange($event)" #myTabs >
+  <ion-tab [root]="tab1Root"  tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root"  tabIcon="notifications"></ion-tab>
+  <ion-tab [root]="tab3Root"  tabIcon="md-settings"></ion-tab>
 </ion-tabs>

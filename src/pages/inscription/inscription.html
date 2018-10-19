@@ -1,0 +1,29 @@
+
+
+<ion-content  padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Nom & Prenom</ion-label>
+      <ion-input [(ngModel)]="username" type="text" value=""></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label floating>N Carte Etudiant</ion-label>
+      <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Mot de passe</ion-label>
+      <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating> Confirmer mot de passe</ion-label>
+      <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div padding>
+    <button  ion-button primary block style="background-color:#DEB887"  (click)="login()">INSCRIPTION</button>
+  </div>
+</ion-content>

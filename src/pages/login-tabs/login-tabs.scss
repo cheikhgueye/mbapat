@@ -1,0 +1,20 @@
+page-login-tabs {
+  .nav{
+    text-align: center;
+    box-shadow: none;
+    border-bottom-color: white
+  }
+  ion-icon{
+    font-size: 2rem;
+
+
+  }
+  ion-segment{
+    margin-top: -36px;
+    margin-left: 55px;
+    transform: rotate(30deg);
+  }
+  h5{
+    margin-top: 15%
+  }
+}

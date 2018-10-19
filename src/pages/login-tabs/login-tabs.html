@@ -1,0 +1,10 @@
+
+
+  <ion-content  class="nav" >
+      <h1>NOPALE  <ion-segment><ion-icon name="logo-rss" id="nicone"></ion-icon></ion-segment></h1>
+        <h5>Le paiement digital dans le campus</h5>
+        <super-tabs   id="mainTabs" selectedTabIndex="0" toolbarColor="dark" toolbarBackground="light"  indicatorColor="mar-beige" badgeColor="mar-beige" [config]="{ sideMenu: 'right' }" (tabSelect)="onTabSelect($event)">
+            <super-tab [root]="tab1Root"  title="Connexion"  ></super-tab>
+            <super-tab [root]="tab2Root"  title="Inscription"  ></super-tab>
+          </super-tabs>
+    </ion-content>

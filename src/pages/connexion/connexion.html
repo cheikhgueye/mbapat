@@ -1,0 +1,20 @@
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Telephone</ion-label>
+      <ion-input [(ngModel)]="username" type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Mot de passe</ion-label>
+      <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button primary block style="background-color:#DEB887"  (click)="login()">CONNEXION</button>
+  </div>
+</ion-content>
